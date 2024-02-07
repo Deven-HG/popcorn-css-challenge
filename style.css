@@ -10,41 +10,70 @@ body {
   background-color: #D4A76A;
 }
 header {
+  margin: 0px;
+  padding: 0px;
   background-color: #ffdbaa;
   color: #553100;
   border-bottom: solid;
 }
+header h2 {
+
+  padding-top: 1%;
+  padding-left: 2%;
+}
+header .button {
+  padding: 10px;
+  margin: 15px;
+}
+
 .button {
   background-color: #805215;
   color: white;
+  text-wrap: nowrap;
+  font-weight: bold;
+  font-size: larger;
 }
 
 .nav .button {
-
+  width: 6%;
 }
 
 section {
+  background-color: white;
   text-align: center;
+  text-wrap: wrap;
   border-style: solid;
   margin: 3%;
-  padding: 3%;
+  padding: 1%;
 }
 
 #flights {
-  float: left;
-  margin-left: auto;
+  width: 23%;
+  float: inline-start;
+  margin-left: 5%;
 }
 
 #groups {
-margin-left: auto;
-margin-right: auto;
+  width: 23%;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 #discounts {
-float: right;
-margin-right: auto;
+  width: 23%;
+  float: inline-end;
+  float: right;
+  margin-right: 5%;
 }
 
 #about {
-margin: 20%;
+  margin: 15%;
+  padding: 1%;
+}
+
+section .button {
+  width: 99%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
