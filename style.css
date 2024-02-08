@@ -10,11 +10,13 @@ body {
   background-color: #D4A76A;
 }
 header {
+  height: 90px;
   margin: 0px;
   padding: 0px;
   background-color: #ffdbaa;
   color: #553100;
   border-bottom: solid;
+  border-width: 3px;
 }
 header h2 {
 
@@ -22,8 +24,10 @@ header h2 {
   padding-left: 2%;
 }
 header .button {
+  float: right;
   padding: 10px;
   margin: 15px;
+  transform: translateY(-60px);
 }
 
 .button {
@@ -32,17 +36,19 @@ header .button {
   text-wrap: nowrap;
   font-weight: bold;
   font-size: larger;
+  text-align: center;
 }
 
 .nav .button {
   width: 6%;
+  min-width: 110px;
 }
 
 section {
   background-color: white;
   text-align: center;
   text-wrap: wrap;
-  border-style: solid;
+  border-style: outset;
   margin: 3%;
   padding: 1%;
 }
@@ -62,9 +68,8 @@ section {
 
 #discounts {
   width: 23%;
-  float: inline-end;
-  float: right;
-  margin-right: 5%;
+  margin-left: 65%;
+  margin-right: 50%;
 }
 
 #about {
